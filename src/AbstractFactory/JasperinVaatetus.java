@@ -2,7 +2,7 @@ package AbstractFactory;
 
 public abstract class JasperinVaatetus {
 	Vaatteet vaatteet = null;
-	
+	 
 	public abstract Vaatteet createAdidas();
 	public abstract Vaatteet createBoss();
 	
@@ -30,4 +30,5 @@ public abstract class JasperinVaatetus {
 		System.out.println("Vaatetukseeni kuuluu " + vaatteet);
 		vaatteet = null;
 	}
+	
 }
