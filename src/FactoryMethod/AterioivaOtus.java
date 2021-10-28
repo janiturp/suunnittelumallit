@@ -13,6 +13,12 @@ public abstract class AterioivaOtus {
     public void aterioi(){
         syö();
         juo();
+        
+        syö();
+        juoMaito();
+        
+        syö();
+        juoPiima();
     }
 
     public void syö(){
@@ -24,11 +30,19 @@ public abstract class AterioivaOtus {
         if (juoma == null)
             juoma = createJuoma();
         System.out.println("Aterian jälkeen " + juoma + " tekee terää");
-        
-        juoma = createMaito();
+        juoma = null;
+    }
+    
+    public void juoMaito() {
+    	if(juoma == null)
+    		juoma = createMaito();
         System.out.println("Aterian jälkeen " + juoma + " tekee terää");
-        
-        juoma = createPiima();
+        juoma = null;
+    }
+    
+    public void juoPiima() {
+    	if(juoma == null)
+    		juoma = createPiima();
         System.out.println("Aterian jälkeen " + juoma + " tekee terää");
     }
 }
