@@ -9,7 +9,7 @@ public abstract class JasperinVaatetus {
 	public void esitteleVaatteita() {
 		esittaydy();
 		esitteleAdidas();
-		System.out.println("Valmistauduin Insinööriksi!");
+		System.out.println("Valmistuin Insinööriksi!");
 		esitteleBoss();
 	}
 	

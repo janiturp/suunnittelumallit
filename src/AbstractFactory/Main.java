@@ -7,6 +7,8 @@ import java.util.Properties;
 public class Main {
 
 	public static void main(String[] args) {
+		
+		/*
 		Class c = null;
 		Vaatteet tehdas = null;
 		
@@ -26,11 +28,14 @@ public class Main {
 		Vaatteet adidas = tehdas.createAdidas();
 		Vaatteet boss = tehdas.createBoss();
 		jasper.esitteleVaatteita();
+		*/
 		
 		/* Ilman reflektiota main
+		*/
+		
 		JasperinVaatetus jasper = new Jasper();
 		jasper.esitteleVaatteita();
-		*/
+		
 	}
 
 }
